@@ -75,7 +75,7 @@ export default function Hero() {
 
           {/* Secondary CTA */}
           <a
-            href="https://www.google.com/maps/dir/?api=1&destination=Av.+Monse%C3%B1or+Pablo+Cabrera+3413,+C%C3%B3rdoba,+Argentina"
+            href="https://www.google.com/maps/dir/?api=1&destination=Bv.%20Los%20Granaderos%201384%2C%20C%C3%B3rdoba%2C%20Argentina"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 border border-white/30 px-9 py-4 text-xs uppercase tracking-[0.25em] text-white/90 transition hover:border-yellow-400 hover:text-yellow-300"
