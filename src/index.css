@@ -1,0 +1,58 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+
+/* Base styles */
+body {
+  background: #0a0a0a;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom fonts */
+.font-display {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Gold text gradient */
+.gold-gradient {
+  background: linear-gradient(to right, #d4af37, #f5d77d);
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom colors */
+.text-gold {
+  color: #d4af37;
+}
+
+.border-gold\/60 {
+  border-color: rgba(212, 175, 55, 0.6);
+}
+
+/* Hover utilities */
+.hover\:bg-gold:hover {
+  background-color: #d4af37;
+}
+
+.hover\:text-primary-foreground:hover {
+  color: black;
+}
+
+/* Letter spacing */
+.tracking-luxury {
+  letter-spacing: 0.3em;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: reveal 0.8s ease forwards;
+}
+
+@keyframes reveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
