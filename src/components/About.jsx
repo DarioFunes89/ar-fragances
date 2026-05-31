@@ -7,7 +7,7 @@ return (
         
         {/* Imagen */}
         <div className="relative aspect-[5/6] overflow-hidden">
-          <img src="public/assets/about.jpg" alt="Interior boutique Ar Fragance" 
+          <img src="assets/about.jpg" alt="Interior boutique Ar Fragance" 
           className="h-full w-full object-cover transition-transform duration-[1500ms] hover:scale-105"
           />
           <div className="absolute inset-0 ring-1 ring-inset ring-yellow-400/20" />
