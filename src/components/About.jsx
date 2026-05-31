@@ -2,6 +2,7 @@ export default function About() {
 
 return (
     <section id="about" className="relative py-32 px-6">
+        
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/[0.02] to-transparent pointer-events-none" />
         <div className="mx-auto max-w-7xl grid lg:grid-cols-2 gap-16 items-center">
         

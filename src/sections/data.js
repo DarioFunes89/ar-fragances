@@ -1,3 +1,5 @@
+import { Gem, Sparkles, HeartHandshake, BadgeDollarSign } from "lucide-react"
+
 export const products = [
   {
     id: 1,
@@ -33,5 +35,36 @@ export const products = [
     brand: "Lancome",
     notes: "EDP 100ml",
     image: "/assets/perfumes/5.webp",
+  },
+]
+
+export const features = [
+  {
+    icon: Gem,
+    title: "Perfumes Originales",
+    description:
+      "Cada fragancia 100% auténtica, seleccionada con criterio de boutique.",
+    number: "01",
+  },
+  {
+    icon: Sparkles,
+    title: "Gran Variedad",
+    description:
+      "Una curaduría amplia de casas reconocidas y fragancias de nicho.",
+    number: "02",
+  },
+  {
+    icon: HeartHandshake,
+    title: "Atención Personalizada",
+    description:
+      "Te acompañamos a encontrar el aroma que cuenta tu historia.",
+    number: "03",
+  },
+  {
+    icon: BadgeDollarSign,
+    title: "Muy Buenos Precios",
+    description:
+      "Lujo accesible: precios pensados para que el ritual sea tuyo.",
+    number: "04",
   },
 ]

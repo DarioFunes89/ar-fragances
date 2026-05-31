@@ -4,6 +4,7 @@ import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import ProductsSection from "./sections/ProductsSection"
 import About from "./components/About"
+import WhyChooseUs from "./components/WhyChooseUs"
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <NavBar />
       <Hero />
       <About />
+      <WhyChooseUs />
       <ProductsSection />
       <Footer />
     </div>
