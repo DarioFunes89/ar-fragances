@@ -106,12 +106,14 @@ export default function Hero() {
           style={{ animationDelay: "1s" }}
         >
           <div className="flex flex-col items-center gap-3">
-            <span>Descubrí</span>
-            <span className="h-12 w-px bg-gradient-to-b from-yellow-400/60 to-transparent"></span>
+            <span className="text-white font-light">Descubrí</span>
+            <span className="h-20 w-px bg-gradient-to-b from-yellow-600/60 to-transparent"></span>
           </div>
         </div>
 
       </div>
+      <div className="absolute bottom-0 left-0 right-0 h-45 bg-gradient-to-b from-transparent via-black/70 to-[#0a0a0a] z-10" />
     </section>
+    
   )
 }
